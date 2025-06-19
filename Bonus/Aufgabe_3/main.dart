@@ -85,3 +85,8 @@ void analyzeNumbers(List<int> numbers) {
   printNumberTypes(numbers);
   printDistribution(numbers);
 }
+
+void main() {
+  List<int> numbers = [3, 5, -2, 8, 0, -1, 4, 7, -3, 2];
+  analyzeNumbers(numbers);
+}
