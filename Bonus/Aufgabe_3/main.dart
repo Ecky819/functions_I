@@ -87,6 +87,6 @@ void analyzeNumbers(List<int> numbers) {
 }
 
 void main() {
-  List<int> numbers = [3, 5, -2, 8, 0, -1, 4, 7, -3, 2];
+  List<int> numbers = [3, 5, 5, 8, 0, -1, 4, 7, -3, -3, 2, 6, 8, 9, -2, -5];
   analyzeNumbers(numbers);
 }
